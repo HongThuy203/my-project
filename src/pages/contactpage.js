@@ -17,7 +17,7 @@ const contactpage = () => {
       </button>
     </div>
   </section>
-  <section class="section newsletter">
+  <!-- <section class="section newsletter">
     <div class="newsletter__container container">
       <h2 class="section__title">Liên hệ tôi</h2>
       <form action="" class="newsletter__form">
@@ -25,7 +25,7 @@ const contactpage = () => {
           <a href="#" class="footer__logo">
             <img src="./img/logo.png" alt="" class="footer__logo-img">
             Hồng Thúy
-          </a>
+          </a> -->
 
           <!-- <p class="footer__link">Liên hệ với tôi qua số điện thoại: <a class="text-muted text-decoration-none "
               href="tel:0389 961 844">0389 961 844</a> hoặc liên hệ</p>
