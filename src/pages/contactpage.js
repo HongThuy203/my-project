@@ -27,7 +27,7 @@ const contactpage = () => {
             Hồng Thúy
           </a>
 
-          <p class="footer__link">Liên hệ với tôi qua số điện thoại: <a class="text-muted text-decoration-none "
+          <!-- <p class="footer__link">Liên hệ với tôi qua số điện thoại: <a class="text-muted text-decoration-none "
               href="tel:0389 961 844">0389 961 844</a> hoặc liên hệ</p>
 
           <div class="footer__link">
@@ -39,7 +39,7 @@ const contactpage = () => {
             </a>
             <a href="https://twitter.com/" target="_blank" class="footer__social-link">
               <i class='bx bxl-gmail'></i>
-            </a>
+            </a> -->
 
           </div>
         </div>
