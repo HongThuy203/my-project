@@ -16,8 +16,8 @@ const contactpage = () => {
         Gửi
       </button>
     </div>
-  </section>
-  <!-- <section class="section newsletter">
+  <!-- </section>
+  <!-<section class="section newsletter">
     <div class="newsletter__container container">
       <h2 class="section__title">Liên hệ tôi</h2>
       <form action="" class="newsletter__form">
@@ -41,12 +41,12 @@ const contactpage = () => {
               <i class='bx bxl-gmail'></i>
             </a> -->
 
-          </div>
+          <!-- </div>
         </div>
 
       </form>
     </div>
-  </section>
+  </section> --> -->
 </main>
 
     `;
