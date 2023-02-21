@@ -263,6 +263,7 @@ button {
 /*=============== HOME ===============*/
 .home__content {
     row-gap: 1rem;
+    margin-top: 60px;
 }
 
 .home__group {
@@ -849,13 +850,14 @@ button {
     }
 
     .home__content {
-        padding: 8rem 0 2rem;
+        padding: 6rem 0 2rem;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
     }
 
-    .home__img {
-        height: 300px;
+    .home__img img {
+        height: 900px;
+        width: 900px;
     }
 
     .swiper-pagination {
@@ -1049,6 +1051,8 @@ button {
 
     .footer__copy {
         margin-top: 6rem;
+        margin-left: 650px;
+        display: inline;
     }
 }
 

@@ -1,5 +1,5 @@
 const header = () => {
-    return `<header class="header" id="header">
+  return /*html*/`<header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav__logo">
         <img src="./img/logo.png" alt="" class="nav__logo-img">
@@ -17,7 +17,7 @@ const header = () => {
 
 
           <li class="nav__item">
-            <a href="/projectpage" class="nav__link">Dự án</a>
+            <a href="/projectspage" class="nav__link">Dự án</a>
           </li>
           <li class="nav__item">
             <a href="/blogpage" class="nav__link">Bài viết</a>

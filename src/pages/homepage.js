@@ -2,9 +2,10 @@ import footer from "@/components/footer";
 import header from "@/components/header";
 import aboutpage from "./aboutpage";
 import contactpage from "./contactpage";
+import projectspage from "./projectspage";
 
 const homepage = () => {
-    return /*html*/`
+  return /*html*/`
     ${header()}
   <!--==================== HOME ====================-->
    <section class="home container" id="home">
@@ -14,20 +15,17 @@ const homepage = () => {
    <section class="swiper-slide">
             <div class="home__content grid">
               <div class="home__group">
-                <img src="./img/myptr.jpg" alt="" class="home__img">
+                <img type="module" src="./img/mpt.jpg" alt="ẢNH" class="home__img">
               </div>
 
               <div class="home__data">
                 <h3 class="home__subtitle">#Xin chào, tôi là Triệu Hồng Thúy</h3>
-                <h1 class="home__title">TÔI LÀ<br>FRONT-END<br> DEVELOPER</h1> -->
-            <p class="home__description">Lorem Ipsum is simply dummy text of
-                  the printing and typesetting industry.
-                </p>
+                <h1 class="home__title">TÔI LÀ<br>FRONT-END<br> DEVELOPER</h1> 
 
   <div class="home__buttons">
     <a target="_blank" href="https://drive.google.com/file/d/15LkYcQZlWmeblHKHli9rF7hzpXgyWYwx/view?usp=share_link"
       class="button">Dowload CV</a>
-    <a href="#" class="button--link button--flex">Giới thiệu về tôi <i
+    <a href="/aboutpage" class="button--link button--flex">Giới thiệu về tôi <i
         class='bx bx-right-arrow-alt button__icon'></i></a>
   </div>
   </div>
@@ -36,6 +34,7 @@ const homepage = () => {
   </div>
   </section> 
     ${aboutpage()}
+    ${projectspage()}
     ${contactpage()}
     ${footer()}
    `

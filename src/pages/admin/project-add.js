@@ -39,7 +39,7 @@ const AdminProjectAdd = () => {
         <input type="text" id="project-author" class="form-control">
       </div>
       <div class="form-group">
-        <button class="btn btn-primary" >Thêm sản phẩm</button>
+        <button class="btn btn-primary" >Thêm dự án</button>
       </div>
     </form>
       </div>`

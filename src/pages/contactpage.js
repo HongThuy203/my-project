@@ -1,5 +1,7 @@
+import header from "@/components/header";
 const contactpage = () => {
-    return /*html*/ `
+  return /*html*/ `
+    ${header()};
     <section class="section newsletter">
     <div class="newsletter__container container">
       <h2 class="section__title">Góp ý & liên hệ</h2>
@@ -9,15 +11,15 @@ const contactpage = () => {
 
       <form action="" class="newsletter__form">
         <input type="text" placeholder="Nhập tên của bạn" class="newsletter__input">
-        <br>
-        <input type="text" placeholder="Viết bình luận" class="newsletter__input">
+        <br> <br>
+        <input type="text" placeholder="Viết lời nhắn" class="newsletter__input">
       </form>
       <button class="button">
         Gửi
       </button>
     </div>
-  <!-- </section>
-  <!-<section class="section newsletter">
+  </section>
+  <<section class="section newsletter">
     <div class="newsletter__container container">
       <h2 class="section__title">Liên hệ tôi</h2>
       <form action="" class="newsletter__form">
@@ -25,9 +27,9 @@ const contactpage = () => {
           <a href="#" class="footer__logo">
             <img src="./img/logo.png" alt="" class="footer__logo-img">
             Hồng Thúy
-          </a> -->
+          </a>
 
-          <!-- <p class="footer__link">Liên hệ với tôi qua số điện thoại: <a class="text-muted text-decoration-none "
+          <p class="footer__link">Liên hệ với tôi qua số điện thoại: <a class="text-muted text-decoration-none "
               href="tel:0389 961 844">0389 961 844</a> hoặc liên hệ</p>
 
           <div class="footer__link">
@@ -39,16 +41,15 @@ const contactpage = () => {
             </a>
             <a href="https://twitter.com/" target="_blank" class="footer__social-link">
               <i class='bx bxl-gmail'></i>
-            </a> -->
+            </a>
 
-          <!-- </div>
+          </div>
         </div>
 
       </form>
     </div>
-  </section> --> -->
+  </section> 
 </main>
-
     `;
 }
 
